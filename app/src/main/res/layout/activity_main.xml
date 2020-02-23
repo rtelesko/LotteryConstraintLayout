@@ -15,7 +15,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="16dp"
         android:text="@string/name"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,7 +25,6 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:ems="10"
         android:hint="@string/hint_name"
         android:inputType="textPersonName"
         app:layout_constraintBaseline_toBaselineOf="@+id/tvName"
@@ -39,7 +38,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="32dp"
         android:text="@string/email"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvName" />
@@ -48,7 +47,6 @@
         android:id="@+id/etEmail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:ems="10"
         android:hint="@string/hint_email"
         android:inputType="textEmailAddress"
         app:layout_constraintBaseline_toBaselineOf="@+id/tvEmail"
@@ -62,7 +60,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="32dp"
         android:text="@string/tips"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvEmail" />
