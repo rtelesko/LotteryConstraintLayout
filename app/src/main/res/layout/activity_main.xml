@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:hint="@string/hint_name"
-        android:inputType="textPersonName"
+        android:inputType="text"
         app:layout_constraintBaseline_toBaselineOf="@+id/tvName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tvName" />
@@ -48,7 +48,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="@string/hint_email"
-        android:inputType="textEmailAddress"
+        android:inputType="text"
         app:layout_constraintBaseline_toBaselineOf="@+id/tvEmail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/etName" />
